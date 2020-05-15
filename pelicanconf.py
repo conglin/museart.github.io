@@ -33,3 +33,9 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+THEME="/Users/user/projects/pelican-themes/pelican-bootstrap3"
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['/Users/user/Documents/projects/pelican-plugins']
+PLUGINS = ['i18n_subsites']
+I18N_TEMPLATES_LANG = 'zh'
+BOOTSTRAP_FLUID = True
