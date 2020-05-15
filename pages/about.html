@@ -1,5 +1,7 @@
 <html>
 <head>
+    <title>About | Cong Lin's Ideas Repo </title>
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -9,6 +11,8 @@
     <script src="/js/skel.min.js"></script>
     <script src="/js/skel-layers.min.js"></script>
     <script src="/js/init.js"></script>
+    <script src="/js/scripts.js"></script>
+    <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/pygment.css" />
     <noscript>
         <link rel="stylesheet" href="/css/skel.css" />
@@ -20,25 +24,21 @@
     <link  href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
     <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
-
-    <title>About | Cong Lin's Ideas Repo </title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
 </head>
 
-<body class=" loading">
+<body class="no-sidebar loading">
 
 
 
     <!-- Header -->
     <header id="header" >
         <h1 class="logo">
-            <a href="">Cong Lin's Ideas Repo, design Twenty <span> by html5 up</span></a>
+            <a href="/">Cong Lin's Ideas Repo<span>.com</span></a>
         </h1>
         <nav id="nav">
             <ul>
                 <!-- <li class="current"><a href="index.html">Welcome</a></li> -->
-                        <li><a href="/pages/about.html">About</a></li>
                 <li class="submenu">
                     <a href="/">Blog</a>
                     <ul>
@@ -47,7 +47,7 @@
                             </li>
                     </ul>
                 </li>
-                <li><a href="#" class="button special">Sign Up</a></li>
+                <li><a href="http://www.cuttlesoft.com" class="button special">See More</a></li>
             </ul>
         </nav>
     </header>
@@ -56,14 +56,14 @@
 <article id="main">
 
   <header class="special container">
-    <span class="icon fa-mobile"></span>
+      <span class="icon fa-"></span>
     <h2>About</h2>
     <!-- add page sub title here -->
-    <p>Where that in the center faces the nameless horrors alone.</p>
+    <p>$ cat /pages/about/index.html | grep 'About'</p>
   </header>
 
   <!-- One -->
-  <section class="wrapper style4 container">
+  <section id="page" class="wrapper style4 container">
 
     <!-- Content -->
       <div class="content">
@@ -82,6 +82,9 @@ and I would probably have been burned at the stake.</p>
   <!-- Two -->
     <section class="wrapper style1 container special">
         <div class="row">
+          <h2 class="space-above">Latest Posts</h2>
+        </div>
+        <div class="row">
           <div class="4u">
 
             <section>
@@ -89,7 +92,7 @@ and I would probably have been burned at the stake.</p>
               <header>
                 <a href="/first-post-on-my-sweet-new-blog.html" rel='bookmark'><h3>First Post on My Sweet New Blog</h3></a>
               </header>
-              <p>I am On My Way To Internet Fame and Fortune! This is my first post on my new blog. While not super informative it should convey my sense of excitement and eagerness to engage with you,</p>
+              <p>I am On My Way To Internet Fame and Fortune! This is my first post on my new blog. While not super informative it should convey my sense of excitement and eagerness to engage with you,...</p>
               <footer>
                   <ul class="buttons">
                       <li><a href="/first-post-on-my-sweet-new-blog.html" class="button small">Read More</a></li>
@@ -114,8 +117,15 @@ and I would probably have been burned at the stake.</p>
         </li>
     </ul>
 
-    <span class="copyright">&copy; Untitled. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+    <span class="copyright">&copy; . Some rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
 
 </footer>
 </body>
+
+<script>
+$( document ).ready(function() {
+    $('#pretty_date').text(pretty_date($('#pretty_date').attr('data-date')));
+});
+</script>
+
 </html>

@@ -1,5 +1,7 @@
 <html>
 <head>
+    <title>Cong Lin's Ideas Repo - Tags</title>
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -9,6 +11,8 @@
     <script src="/js/skel.min.js"></script>
     <script src="/js/skel-layers.min.js"></script>
     <script src="/js/init.js"></script>
+    <script src="/js/scripts.js"></script>
+    <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/pygment.css" />
     <noscript>
         <link rel="stylesheet" href="/css/skel.css" />
@@ -20,10 +24,7 @@
     <link  href="http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
     <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
-
-    <title>Cong Lin's Ideas Repo - Tags</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
 </head>
 
 <body class="no-sidebar loading">
@@ -33,12 +34,11 @@
     <!-- Header -->
     <header id="header" >
         <h1 class="logo">
-            <a href="">Cong Lin's Ideas Repo, design Twenty <span> by html5 up</span></a>
+            <a href="/">Cong Lin's Ideas Repo<span>.com</span></a>
         </h1>
         <nav id="nav">
             <ul>
                 <!-- <li class="current"><a href="index.html">Welcome</a></li> -->
-                        <li><a href="/pages/about.html">About</a></li>
                 <li class="submenu">
                     <a href="/">Blog</a>
                     <ul>
@@ -47,7 +47,7 @@
                             </li>
                     </ul>
                 </li>
-                <li><a href="#" class="button special">Sign Up</a></li>
+                <li><a href="http://www.cuttlesoft.com" class="button special">See More</a></li>
             </ul>
         </nav>
     </header>
@@ -68,8 +68,15 @@
         </li>
     </ul>
 
-    <span class="copyright">&copy; Untitled. All rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+    <span class="copyright">&copy; . Some rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
 
 </footer>
 </body>
+
+<script>
+$( document ).ready(function() {
+    $('#pretty_date').text(pretty_date($('#pretty_date').attr('data-date')));
+});
+</script>
+
 </html>
