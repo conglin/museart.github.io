@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Cong Lin'
-SITENAME = u"Cong Lin's Ideas Repo"
+AUTHOR = u'museart'
+SITENAME = u'MuseArt'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'US/Central'
+TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = u'zh'
 
@@ -33,11 +33,3 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME="/Users/user/projects/twenty-pelican-html5up"
-JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-PLUGIN_PATHS = ['/Users/user/Documents/projects/pelican-plugins']
-PLUGINS = ['i18n_subsites']
-I18N_TEMPLATES_LANG = 'zh'
-BOOTSTRAP_FLUID = True
-from filters import sidebar
-JINJA_FILTERS = {"sidebar": sidebar}
